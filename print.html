@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MARTA - Print</title>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600,700,900|Raleway:400,100,300,700,500,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="css/print.css">
+	<link rel="stylesheet" href="css/home.css">
+
+							<!-- STELLAR -->
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<div class="print-container">
+
+									  <!-- N A V B A R -->
+
+<div id="section1">
+	<div class="hamburger">
+		<a class="ion-navicon-round" href="#!"></a>
+	</div>
+		<div class="mobile-menu-container">
+			<ul>
+				<li><a class="mobile-directors-link" href="#!">DIRECTORS</a></li>
+				<li><a href="print.html">PRINT</a></li>
+				<li><a href="producers.html">PRODUCERS</a></li>
+			</ul>
+		</div>
+		<div class="mobile-directors-container">
+			<ul>
+				<li><a href="directors/1/comfort.html">ARI EVASIO</a></li>
+				<li><a href="directors/4/tiguan.html">DANIEL AZANCOT</a></li>
+				<!-- <li><a href="directors/2/caro_cuore.html">ROCÍO CRUDO</a></li> -->
+				<li><a href="directors/3/axe.html">NACHO RICCI</a></li>
+				<li><a href="directors/5/inmentis.html">FRAN DE LA FUENTE</a></li>
+			</ul>
+		</div>
+	<div class="directors-container directors-container-print">
+		<div class="directors">
+			<ul class="directors-ul">
+				<li><a href="directors/1/comfort.html">ARI EVASIO</a></li>
+				<li><a href="directors/4/tiguan.html">DANIEL AZANCOT</a></li>
+				<!-- <li><a href="directors/2/caro_cuore.html">ROCÍO CRUDO</a></li> -->
+				<li><a href="directors/3/axe.html">NACHO RICCI</a></li>
+				<li class="directors-li-special"><a href="directors/5/inmentis.html">FRAN DE LA FUENTE</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="scroller" class="nav-bar nav-bar-print">
+		<img class='telmaLogo' src="img/telmaLogo.png">
+		<a href="index.html"><img src="img/martaLogoDef.png"></a>
+		<div class="follow-container">
+			<ul class="social-icons-container">
+				<li class="social-icons"><a class="ion-social-facebook" href="https://www.facebook.com/martabuenosaires?ref=br_tf" target="_blank"></a></li>
+				<li class="social-icons"><a class="ion-social-instagram" href="https://instagram.com/welcometomarta" target="_blank"></a></li>
+				<li class="social-icons"><a class="ion-social-linkedin" href="https://ar.linkedin.com/" target="_blank"></a></li>
+			</ul>
+		</div>
+		<ul class="nav-bar-menu">
+			<li><a class="menu-directors" href="#!">Directors</a></li>
+			<li><a href="print.html">Print</a></li>
+			<li><a href="producers.html">Producers</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
+
+							<!-- ARTISTS -->
+								
+			<div class="photo-container">
+				<div id="photo5" class="photos" data-stellar-background-ratio="0.5">
+					<div class="inside-photo">
+						<h1>MARCOS LÓPEZ</h1>
+						<p><a href='prints/lopez.html'>VIEW</a></p>
+					</div>
+				</div>
+				<div id="photo3" class="photos" data-stellar-background-ratio="0.5">
+					<div class="inside-photo">
+						<h1>NACHO RICCI</h1>
+						<p><a href='prints/ricci.html'>VIEW</a></p>
+					</div>
+				</div>
+				<div id="photo1" class="photos" data-stellar-background-ratio="0.5">	
+					<div class="inside-photo">
+						<h1>MANU ARCHAIN</h1>
+						<p><a href='prints/archain.html'>VIEW</a></p>
+					</div>
+				</div>
+				<div id="photo2" class="photos" data-stellar-background-ratio="0.5">
+					<div class="inside-photo">
+						<h1>CHINO ZAVALIA</h1>
+						<p><a href='prints/zavalia.html'>VIEW</a></p>
+					</div>
+				</div>
+			</div>
+	</div>
+	<script type="text/javascript">
+
+	jQuery('.hamburger').click(function() {
+		jQuery('.mobile-menu-container').fadeToggle(300);
+	});
+
+	jQuery('.mobile-directors-link').click(function() {
+		jQuery('.mobile-directors-container').fadeToggle(300);
+	});
+
+		jQuery('.menu-directors').click(function(){
+			jQuery('.directors-container').fadeToggle(300);
+		});
+	</script>
+</body>
+</html>

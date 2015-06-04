@@ -1,0 +1,273 @@
+body {
+	background: white;
+	margin: 0;
+}
+
+.directors-container-print {
+	position: absolute;
+	top: 103px!important;
+}
+
+.social-icons-container {
+	top: 32px!important;
+}
+
+.contact-container {
+	background: rgba(245,245,245,1);
+}
+
+.contact-us {
+	padding-top: 60px;
+}
+
+.contact-us h1, .headquarters-title h1 {
+	margin: 0;
+	font-family: Oswald, serif!important; 
+	color: rgba(0,0,0,0.7);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300!important;
+	letter-spacing: 1.5px;
+}
+
+							/* PRODUCERS */
+
+.exec-producers {
+	text-align: center;
+}
+
+.producers1 ul, .producers2 ul, .headquarters ul{
+	text-align: center;
+	padding: 0% 2%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.producers1 ul {
+	width: 70%!important;
+}
+
+.producers1 ul li {
+	padding-top: 20px!important;
+}
+
+.producers1 ul li {
+	display: inline-block;
+	padding: 15px 0px;
+	text-align: center;
+	width: 33%;
+}
+
+.producers2 ul li {
+	display: inline-block;
+	padding: 15px 0px;
+	text-align: center;
+	width: 26%;
+}
+
+.producers1 ul li h4, .producers2 ul li h4 {
+	color: rgba(0,0,0,0.8);
+	font-weight: 300!important;
+	font-size: 11px;
+	letter-spacing: 0.5px; 
+	font-family: Oswald, sans-serif!important; 
+}
+
+.producers1 ul li p, .producers2 ul li p {
+	font-size: 13px;
+	padding: 11px 0px 6px;
+	color: rgba(0,0,0,0.7);
+	font-family: 'Old STandard TT', sans-serif!important;
+	font-weight: 100!important;
+}
+
+.producers1 ul li a, .producers2 ul li a {
+	font-size: 13px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 300!important;
+	
+}
+
+.producers1 ul li a:hover {
+	color: rgba(0,0,0,0.8);
+	-webkit-transition:all 0.6s ease;
+    -moz-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+    -ms-transition:all 0.6s ease;
+    transition:all 0.6s ease;
+}
+
+.producers2 ul li a:hover {
+	color: rgba(0,0,0,0.8);
+	-webkit-transition:all 0.6s ease;
+    -moz-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+    -ms-transition:all 0.6s ease;
+    transition:all 0.6s ease;
+}
+							/* HEADQUARTERS */
+
+.headquarters-container {
+	margin-top: 10px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.headquarters-title {
+	margin-top: 15px;
+}
+
+.headquarters ul {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.headquarters ul li {
+	text-align: center;
+	width: 33%;
+	min-width: 200px;
+	display: inline-block;
+	padding: 20px 0px 10px;
+}
+
+@media screen and (max-width:770px) {
+	.headquarters ul li {
+		width: 100%;
+	}
+	.producers1 ul li, .producers2 ul li {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:540px) {
+	.producers1 ul li, .producers2 ul li {
+		width: 100%;
+	}
+}
+
+.headquarters ul li h3 {
+	font-weight: 300!important;
+	font-family: Oswald, serif!important;
+	color: rgba(0,0,0,0.8);
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.headquarters ul li p{
+	padding: 5px 0px;
+	line-height: 2;
+	font-weight: 200!important;
+	font-size: 12px;
+	color: black;
+}
+
+.headquarters ul li p span {
+	color: rgba(0,0,0,0.5); 
+	font-family: 'Old Standard TT', serif!important;
+}
+
+								/* FOOTER */
+
+footer {
+	background: white;
+	text-align: center;
+	padding: 0;
+}
+
+.footer-title {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	padding: 0;
+	width: 100%;
+	color: rgba(0,0,0,0.7);
+	font-weight: lighter;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.first-title {
+	font-weight: 300!important;
+	font-size: 14px;
+	letter-spacing: 7px;
+	margin-left: 5px;
+}
+
+.second-title {
+	color: rgba(0,0,0,1);
+	letter-spacing: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px; 
+}
+
+.footer-social-icons li {
+	padding: 0px 10px 10px;
+	color: grey;
+	display: inline-block;
+	padding-right: 6px;
+	padding-left: 6px;
+	opacity: 0.5;
+}
+
+.footer-social-icons li:hover {
+	opacity: 0.8;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.social-icons-footer {
+	color: black;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	right: 0;
+	padding-bottom: 10px;
+}
+
+.social-icons-container-footer {
+	position: relative;
+	top: 9px;
+	color: rgba(0,0,0,1);
+	font-size: 20px;
+	padding: 0;
+}
+
+.footer-line {
+	opacity: 0.5;
+	border-top: 1px solid grey;
+	width: 10%;
+	margin: 0 auto;
+	margin-top: 22px;
+}
+
+.siteBy {
+	margin-top: 15px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+}
+
+.pragaLogo img{
+	opacity: 0.7;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 100px;
+}
+
+.pragaLogo img:hover {
+	opacity: 1;
+	color: red;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+    width: 100px;
+}
+
+
+
+

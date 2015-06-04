@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	text-align: center;
+}
+
+.img-inicio {
+	display: none;
+	height: 100vh;
+	background: url('inicio.jpg') no-repeat center center;
+	background-size: 60%;
+}
+
+@media screen and (max-width:400px) {
+	.img-inicio {
+		background-size: 100%;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-ms-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		transition:all 1s ease;
+	}
+}
