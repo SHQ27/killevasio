@@ -467,7 +467,7 @@ a:link {
 }
 
 .slider-nacho {
-	background: url('../img/framesSliderHome/3-Axe-Black-Nacho-Ricci.jpg') no-repeat center center;
+	background: url('../img/0yoo.jpg') no-repeat center center;
 	background-position: 50% 0;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
@@ -817,6 +817,16 @@ a:link {
 	background-size: 150%;
 }
 
+.small-stills20 {
+	background: url('../directors/3/img/yoo.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills21 {
+	background: url('../directors/3/img/bomba.jpg') no-repeat center center scroll;
+	background-size: 150%;
+}
+
 @media screen and (max-width: 912px) {
 	.small-stills2 {
 		background-size: 160%;
@@ -951,6 +961,14 @@ a:link {
     	-ms-transition:all 1s ease;
     	transition:all 1s ease;
 	}
+	.small-stills20 {
+		background-size: 140%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
 }
 
 @media screen and (max-width: 931px) {
@@ -1004,6 +1022,14 @@ a:link {
 	.small-stills16 {
 		background-size: 127%;
 		background-position: 100% 60%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
+	.small-stills20 {
+		background-size: 160%;
 		-webkit-transition:all 1s ease;
     	-moz-transition:all 1s ease;
     	-o-transition:all 1s ease;

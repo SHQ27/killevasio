@@ -5,7 +5,7 @@ body {
 
 .directors-container-print {
 	position: absolute;
-	top: 103px!important;
+	top: 105px!important;
 }
 
 .social-icons-container {
@@ -62,7 +62,7 @@ body {
 	display: inline-block;
 	padding: 15px 0px;
 	text-align: center;
-	width: 26%;
+	width: 24%;
 }
 
 .producers1 ul li h4, .producers2 ul li h4 {
