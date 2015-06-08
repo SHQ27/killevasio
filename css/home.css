@@ -842,6 +842,11 @@ a:link {
 	background-size: 120%;
 }
 
+.small-stills26 {
+	background: url('../directors/3/img/paraiso.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
 @media screen and (max-width: 912px) {
 	.small-stills2 {
 		background-size: 160%;
