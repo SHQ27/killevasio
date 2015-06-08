@@ -661,7 +661,7 @@ a:link {
 }
 
 .small-stills-container2 {
-	height: 1200px;
+	height: auto;
 	width: 100%;
 	min-height: 500px;
 }
@@ -822,9 +822,24 @@ a:link {
 	background-size: 120%;
 }
 
-.small-stills21 {
+.small-stills22 {
 	background: url('../directors/3/img/bomba.jpg') no-repeat center center scroll;
 	background-size: 150%;
+}
+
+.small-stills23 {
+	background: url('../directors/3/img/calle.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills24 {
+	background: url('../directors/3/img/default.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills25 {
+	background: url('../directors/3/img/bullying.jpg') no-repeat center center scroll;
+	background-size: 120%;
 }
 
 @media screen and (max-width: 912px) {
@@ -913,6 +928,15 @@ a:link {
     	-ms-transition:all 1s ease;
     	transition:all 1s ease;
 	}
+	.small-stills23 {
+		background-size: 140%;
+		background-position: 50% 60%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
 }
 
 @media screen and (max-width: 866px) {
@@ -949,6 +973,15 @@ a:link {
     	-ms-transition:all 1s ease;
     	transition:all 1s ease;
 	}
+	.small-stills23 {
+		background-size: 160%;
+		background-position: 50% 60%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
 }
 
 @media screen and (max-width: 1033px) {
@@ -961,7 +994,7 @@ a:link {
     	-ms-transition:all 1s ease;
     	transition:all 1s ease;
 	}
-	.small-stills20 {
+	.small-stills20, .small-stills25 {
 		background-size: 140%;
 		-webkit-transition:all 1s ease;
     	-moz-transition:all 1s ease;
@@ -1036,6 +1069,14 @@ a:link {
     	-ms-transition:all 1s ease;
     	transition:all 1s ease;
 	}
+	.small-stills25 {
+		background-size: 153%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
 }
 
 @media screen and (max-width:400px) {
@@ -1080,6 +1121,9 @@ a:link {
 	}
 	.large-still1, .large-still2, .large-still5 {
 		height: 250px;
+	}
+	.agency-large-stills {
+		padding-bottom: 0px;
 	}
 	.slider-ari, .slider-dani, .slider-nacho, .slider-sch {
 		min-height: 250px;
