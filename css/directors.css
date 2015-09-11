@@ -11,7 +11,7 @@
 .directors-container {
 	display: none;
 	position: absolute;
-	top: 103px!important;
+	top: 105px!important;
 	width: 100%;
 	background: rgba(0,0,0,0.7);
 	text-align: center;
@@ -200,7 +200,7 @@
 	-o-transform: translate(-50%, 0%); 
 	-ms-transform: translate(-50%, 0%); 
 	transform: translate(-50%, 0%); 
-	min-width: 300px;
+	min-width: 325px;
 	margin: 0 auto;
 }
 

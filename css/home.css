@@ -341,6 +341,14 @@ a:link {
     transition:all 1s ease;
 }
 
+@media screen and (max-width: 400px ){
+	.directors-container{
+		top: 78px;
+	}
+	.directors-container li {
+		padding-bottom: 10px;
+	}
+}
 
 								  /* SOCIAL ICONS */
 
