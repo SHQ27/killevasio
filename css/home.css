@@ -668,6 +668,12 @@ a:link {
 	height: 50%;
 }
 
+.small-stills-container1new {
+	height: 250px;
+	width: 100%;
+	min-height: 250px;
+}
+
 .small-stills-container2 {
 	height: auto;
 	width: 100%;
@@ -855,6 +861,36 @@ a:link {
 	background-size: 120%;
 }
 
+.small-stills30 {
+	background: url('../directors/6/img/nike.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills31 {
+	background: url('../directors/7/img/visa.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.large-still10 {
+	position: relative;
+	height: 700px;
+	background: url('../img/ford.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.large-still11 {
+	position: relative;
+	height: 700px;
+	background: url('../img/samsung.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
 @media screen and (max-width: 912px) {
 	.small-stills2 {
 		background-size: 160%;
@@ -912,6 +948,14 @@ a:link {
 @media screen and (max-width: 940px) {
 	.small-stills6 {
 		background-size: 130%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
+	.small-stills31 {
+		background-size: 150%;
 		-webkit-transition:all 1s ease;
     	-moz-transition:all 1s ease;
     	-o-transition:all 1s ease;
@@ -1084,6 +1128,17 @@ a:link {
 	}
 	.small-stills25 {
 		background-size: 153%;
+		-webkit-transition:all 1s ease;
+    	-moz-transition:all 1s ease;
+    	-o-transition:all 1s ease;
+    	-ms-transition:all 1s ease;
+    	transition:all 1s ease;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.small-stills31 {
+		background-size: 150%;
 		-webkit-transition:all 1s ease;
     	-moz-transition:all 1s ease;
     	-o-transition:all 1s ease;
