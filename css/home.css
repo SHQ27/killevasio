@@ -1163,7 +1163,7 @@ a:link {
     	transition:all 1s ease;
 	}
 	.small-stills-container1 {
-	height: 1000px;
+	height: 500px;
 	width: 100%;
 	min-height: 500px;
 	-webkit-transition:all 1s ease;
@@ -1187,7 +1187,7 @@ a:link {
 		right: 15%;
 		top: 24%;
 	}
-	.large-still1, .large-still2, .large-still5 {
+	.large-still1, .large-still2, .large-still5, .large-still10, .large-still11 {
 		height: 250px;
 	}
 	.agency-large-stills {
