@@ -441,7 +441,7 @@ a:link {
     transition:all 0.5s ease;
 }
 
-.slider-ari, .slider-dani, .slider-nacho, .slider-sch {
+.slider-ari, .slider-dani, .slider-nacho, .slider-sch, .slider-ford, .slider-samsung {
 	width: 100%;
 	height: 87vh;
 	min-height: 500px;
@@ -485,6 +485,24 @@ a:link {
 
 .slider-sch {
 	background: url('../img/Schneider.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.slider-ford {
+	background: url('../img/ford.jpg') no-repeat center center;
+	background-position: 50% 0;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.slider-samsung {
+	background: url('../img/samsung.png') no-repeat center center;
+	background-position: 50% 0;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -564,7 +582,6 @@ a:link {
 	color: white;
 	font-family: 'Old Standard TT', serif!important;
 }
-
 
 									/* STILLS */
 
@@ -668,6 +685,12 @@ a:link {
 	height: 50%;
 }
 
+.small-stills-container2new {
+	height: 500px;
+	width: 100%;
+	min-height: 250px;
+}
+
 .small-stills-container1new {
 	height: 250px;
 	width: 100%;
@@ -731,6 +754,16 @@ a:link {
 	position: relative;
 	height: 700px;
 	background: url('../img/aeGames.jpg') no-repeat center center; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.large-still12 {
+	position: relative;
+	height: 700px;
+	background: url('../img/Fiat-Prisoner.jpg') no-repeat center center; 
  	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
@@ -868,6 +901,16 @@ a:link {
 
 .small-stills31 {
 	background: url('../directors/7/img/visa.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills32 {
+	background: url('../img/Under-Armour.jpg') no-repeat center center scroll;
+	background-size: 120%;
+}
+
+.small-stills33 {
+	background: url('../img/Skol-Soundspot.jpg') no-repeat center center scroll;
 	background-size: 120%;
 }
 
